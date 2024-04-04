@@ -6,6 +6,10 @@
     "start": "next start"
   },
   "dependencies": {
+    "@emotion/cache": "^11.11.0",
+    "@emotion/react": "^11.11.4",
+    "@emotion/styled": "^11.11.5",
+    "@mui/material-nextjs": "^5.15.11",
     "@supabase/ssr": "latest",
     "@supabase/supabase-js": "latest",
     "autoprefixer": "10.4.17",
@@ -14,6 +18,8 @@
     "postcss": "8.4.33",
     "react": "18.2.0",
     "react-dom": "18.2.0",
+    "react-lottie": "^1.2.3",
+    "recharts": "^2.12.4",
     "recoil": "^0.7.7",
     "tailwindcss": "3.4.1",
     "typescript": "5.3.3"
@@ -22,6 +28,7 @@
     "@types/node": "20.11.5",
     "@types/react": "18.2.48",
     "@types/react-dom": "18.2.18",
+    "@types/react-lottie": "^1.2.10",
     "encoding": "^0.1.13"
   }
 }

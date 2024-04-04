@@ -21,7 +21,7 @@ export default function RootLayout({
   return (
     <html lang="en" className={GeistSans.className}>
       <body className="bg-background text-foreground">
-        <main className="flex flex-col items-center min-h-screen">
+        <main className="w-screen h-screen">
           <RecoilLayout>{children}</RecoilLayout>
         </main>
       </body>
